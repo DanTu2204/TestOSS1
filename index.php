@@ -19,7 +19,9 @@ if ($result && $result->num_rows > 0) {
         $featuredProducts[] = $row;
     }
 }
-
+?>
+<h1> Huỳnh Phan Đan Tú-chiều thứ 5</h1>
+<?php
 // Lấy sản phẩm mới nhất
 $newProducts = [];
 $sql = "SELECT p.*, c.name as category_name 
